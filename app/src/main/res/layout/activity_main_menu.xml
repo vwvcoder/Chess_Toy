@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.maxim.chess_vers00.MainMenu">
+
+    <TextView
+        android:id="@+id/textViewDebugger"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/colorWhite"
+        android:text="Hello World!"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:background="@color/colorBoardBackground"
+
+        android:columnCount="8"
+        android:rowCount="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:paddingLeft="10px"
+        tools:paddingRight="10px">
+
+        <ImageView
+            android:id="@+id/imageViewCell00"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell01"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell02"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell03"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell04"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell05"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell06"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell07"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewCell10"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell11"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell12"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell13"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell14"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell15"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell16"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell17"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewCell20"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell21"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell22"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell23"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell24"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell25"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell26"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell27"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewCell30"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell31"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell32"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell33"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell34"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell35"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell36"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell37"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewCell40"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell41"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell42"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell43"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell44"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell45"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell46"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell47"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewCell50"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell51"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell52"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell53"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell54"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell55"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell56"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell57"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewCell60"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell61"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell62"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell63"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell64"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell65"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell66"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell67"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewCell70"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell71"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell72"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell73"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell74"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell75"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell76"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorBlackCell" />
+
+        <ImageView
+            android:id="@+id/imageViewCell77"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="GameOnClick"
+            app:srcCompat="@color/colorWhiteCell" />
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>
